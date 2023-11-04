@@ -1,6 +1,9 @@
-!*/**/.gitkeep
+!**/.gitkeep
 data/external/*
 data/interim/*
 data/raw/*
+!data/external/.gitkeep
+!data/interim/.gitkeep
+!data/raw/.gitkeep
 notebooks/.ipynb_checkpoints/
 **/__pycache__
