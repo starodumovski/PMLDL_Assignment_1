@@ -1,0 +1,4 @@
+!*/*/.gitkeep
+data/external/*
+data/interim/*
+data/raw/*
