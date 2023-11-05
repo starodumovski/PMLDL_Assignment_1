@@ -18,4 +18,7 @@ If you are using the **Windows**:
 >> py src/models/predict_model.py
 ```
 
-For pictures generation run ```bash >> py src/visualization/visualize.py ```
+For pictures generation run
+```bash
+>> py src/visualization/visualize.py
+```
