@@ -74,3 +74,13 @@ class PDataset:
         val_set.to_csv(os.path.join(self.path_splitted, 'val.csv'), index=False, header=True)
 
         self.logging("Ready")
+
+if __name__ == '__main__':
+    print('###Loading data step###')
+    load_instance = LDataset()
+    load_instance.load_data()
+    load_instance.unzip_data()
+
+    print('###Splitting data into samples step###')
+    split_instance = PDataset()
+    split_instance.split_files()
