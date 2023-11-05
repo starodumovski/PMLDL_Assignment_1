@@ -7,11 +7,11 @@ email: a.starodumov@innopolis.university
 
 # Bash commands
 All you need is to lauch several files:
-1. *src/data/make_dataset.py*
-2. *src/models/train_model.py*
-3. *src/models/predict_model.py*
+1. [*src/data/make_dataset.py*](https://github.com/starodumovski/PMLDL_Assignment_1/blob/main/src/data/make_dataset.py)
+2. [*src/models/train_model.py*](https://github.com/starodumovski/PMLDL_Assignment_1/blob/main/src/models/train_model.py)
+3. [*src/models/predict_model.py*](https://github.com/starodumovski/PMLDL_Assignment_1/blob/main/src/models/predict_model.py)
 
-If you want to check if the visualization is working, run the file *src/visualization/visualize.py*.
+If you want to check if the visualization is working, run the file [*src/visualization/visualize.py*](https://github.com/starodumovski/PMLDL_Assignment_1/blob/main/src/visualization/visualize.py).
 
 If you are using the **Windows**:
 - Go to the root of the project (where all folder are).
@@ -27,4 +27,4 @@ For pictures generation run
 >> py src/visualization/visualize.py
 ```
 
-** Instead of bash you can use the *.ipynb* notebooks. Their names are talkinf for them
+** Instead of bash you can use the *.ipynb* [notebooks](https://github.com/starodumovski/PMLDL_Assignment_1/blob/main/notebooks). Their names are talkinf for them
