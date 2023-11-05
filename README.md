@@ -3,7 +3,7 @@ Andrey Starodumov B20-DS-01
 email: a.starodumov@innopolis.university
 
 # Final Report
-*reports/report_2.pdf*
+![*reports/report_2.pdf*](https://github.com/starodumovski/PMLDL_Assignment_1/blob/main/reports/report_2.pdf)
 
 # Bash commands
 All you need is to lauch several files:
