@@ -67,11 +67,11 @@ class PDataset:
         train_set, val_set = self.train_test_split(train_set)
 
         self.logging("Saving the train file...")
-        train_set.to_csv(os.path.join(self.path_splitted, 'train.csv'), index=False, header=True)
+        train_set.to_csv(os.path.join(self.path_splitted, 'train.csv'), index=False, header=True, sep='\t')
         self.logging("Saving the test file...")
-        test_set.to_csv(os.path.join(self.path_splitted, 'test.csv'), index=False, header=True)
+        test_set.to_csv(os.path.join(self.path_splitted, 'test.csv'), index=False, header=True, sep='\t')
         self.logging("Saving the validation file...")
-        val_set.to_csv(os.path.join(self.path_splitted, 'val.csv'), index=False, header=True)
+        val_set.to_csv(os.path.join(self.path_splitted, 'val.csv'), index=False, header=True, sep='\t')
 
         self.logging("Ready")
 
