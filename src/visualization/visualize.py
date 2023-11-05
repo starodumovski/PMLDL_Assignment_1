@@ -11,10 +11,12 @@ sys.path.insert(0, os.path.join(ROOT_FOLDER, 'src', 'data'))
 from make_dataset import PDataset
 
 class Visual:
+    '''Class of generation of pictures for the report'''
     def __init__(self):
         self.to_save_path = os.path.join(ROOT_FOLDER, 'reports', 'figures')
 
     def save_picture(self, ax, ax_title, png_name, xlim=None):
+        '''Saving the picture'''
         ax.set_title(ax_title)
         if xlim is not None:
             ax.set_xlim(*xlim)
@@ -22,6 +24,7 @@ class Visual:
         plt.close()
     
     def prepare_and_save_picture(self, data, column_name, ax_title, png_name):
+        '''Generating the graph from the data'''
         self.save_picture(
             ax=data[column_name].plot(kind='kde'),
             ax_title=ax_title,
@@ -30,6 +33,8 @@ class Visual:
         )
 
     def read_data_save_pictures(self):
+        '''Main function to generate the pictures'''
+        
         print('Reading the full data...')
         data = PDataset().read_data()
 

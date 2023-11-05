@@ -8,3 +8,5 @@ data/raw/*
 notebooks/.ipynb_checkpoints/*
 **/__pycache__
 notebooks/test.ipynb
+models/*
+!models/.gitkeep
